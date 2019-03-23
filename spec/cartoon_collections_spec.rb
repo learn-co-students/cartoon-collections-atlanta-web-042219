@@ -64,5 +64,4 @@ describe "Cartoon Collections" do
       no_cheese = ["ham", "cellphone", "computer"]
       expect(find_the_cheese(no_cheese)).to eq nil
     end
-  end
-end
+ 
