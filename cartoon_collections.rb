@@ -18,7 +18,11 @@ def find_the_cheese(arr)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   while i < 3
-    arr.find { |item| item == cheese_types[i] } == nil ? i += 1 : return cheese_types[i]
+    if arr.find { |item| item == cheese_types[i] } == nil 
+      i += 1 
+    else
+      return cheese_types[i]
+    end
   end 
  nil
 end
