@@ -21,7 +21,7 @@ def find_the_cheese(arr)# code an argument here
    arr.find { |item| item == cheese_types[i] } == nil ? 
       i += 1 
     :
-      return "#{cheese_types[i]}""
+      return "#{cheese_types[i]}"
     end
   end 
  nil
